@@ -1,7 +1,9 @@
-let value =5 
-const myarray = [100,200,{bulb:2000}]
-const bublu = {
-    id: '1',
-    name:'Rakesh'
-}
-module.exports= {value, myarray}
+const express = require('express');
+const app = express();
+
+app.get('/Rakesh',(req,res)=>{
+    res.send(`Rakesh is a bad boy`);
+});
+app.listen(5000)
+
+
